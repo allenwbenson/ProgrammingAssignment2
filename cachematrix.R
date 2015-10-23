@@ -23,7 +23,7 @@ makeCacheMatrix <- function(m = matrix()) {
         get <- function() {
                 m
         }
-        ## set will set the m variable to the input argument newMatrix?
+        ## set will set the m variable to the input argument newMatrix
         set <- function(newMatrix) {
                 ## Assign the new matrix to the parent's m variable
                 m <<- newMatrix
